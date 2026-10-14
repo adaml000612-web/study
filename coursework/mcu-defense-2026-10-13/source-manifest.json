@@ -1,0 +1,127 @@
+[
+  {
+    "relative_path": "工作\\2026-10-13-slidesmaker\\add_photos.py",
+    "sha256": "63A22CF21FB04E1597210CB19711389713598E51595191BFA019ED30A749B37D",
+    "bytes": 4839
+  },
+  {
+    "relative_path": "工作\\2026-10-13-slidesmaker\\annotate_photos.py",
+    "sha256": "F15678B26D17E3E0899A03C7325861D48659909F8BEC2C36119AD0537C5CD767",
+    "bytes": 2259
+  },
+  {
+    "relative_path": "工作\\2026-10-13-slidesmaker\\build_journal.py",
+    "sha256": "C4B3A10BE63F554059F148835B1EE29C5010806E4926214516F044E6A2AF1F81",
+    "bytes": 10897
+  },
+  {
+    "relative_path": "工作\\2026-10-13-slidesmaker\\make_revised_plan.py",
+    "sha256": "1679D3D10D60105B1E5D0A55BD1881E667E7A78921698CDB786A3209F51F5E88",
+    "bytes": 33302
+  },
+  {
+    "relative_path": "输出\\2026-10-12\\LCD1602_Test\\LCD1602_Test.uvproj",
+    "sha256": "4E912942DAA43A96420F63892EFC84A19B1E8D2D158330E042818F91708530FE",
+    "bytes": 13306
+  },
+  {
+    "relative_path": "输出\\2026-10-12\\LCD1602_Test\\main.c",
+    "sha256": "14C7F8C576F517DA6201482F6A6B54797076B2674EBE6D5E1BCBCC1676F70CF0",
+    "bytes": 1196
+  },
+  {
+    "relative_path": "输出\\2026-10-12\\Proteus_Ultrasonic_LCD1602\\build_schematic.py",
+    "sha256": "463E06190F6E9404E335046EED9BBC7577CE93D252496BF35DBCBB93913E3785",
+    "bytes": 6091
+  },
+  {
+    "relative_path": "输出\\2026-10-12\\Proteus_Ultrasonic_LCD1602\\main.c",
+    "sha256": "FA6AA5B3E2A20406723822F9F351A163FBB484301AB1E64C9ED733BA86057276",
+    "bytes": 3385
+  },
+  {
+    "relative_path": "输出\\2026-10-12\\Ultrasonic_LCD1602\\main.c",
+    "sha256": "FA6AA5B3E2A20406723822F9F351A163FBB484301AB1E64C9ED733BA86057276",
+    "bytes": 3385
+  },
+  {
+    "relative_path": "输出\\2026-10-12\\Ultrasonic_LCD1602\\Ultrasonic_LCD1602.uvproj",
+    "sha256": "B925DB1B6AE7CDFF7A33801B0C8C2D1EFD424D411A95172F883F1EBBC85A52B3",
+    "bytes": 13318
+  },
+  {
+    "relative_path": "输出\\2026-10-12\\Ultrasonic_Test\\main.c",
+    "sha256": "49B52C651549E62611CE64AE1D60D7CB74E02D36A8936BCCCE7CFDA261F14AE7",
+    "bytes": 2107
+  },
+  {
+    "relative_path": "输出\\2026-10-12\\Ultrasonic_Test\\Ultrasonic_Test.uvproj",
+    "sha256": "A5B26D3272CEDF673014E727D3303F6DB25F877EE32CF7B010D5773DE3CD31C6",
+    "bytes": 13312
+  },
+  {
+    "relative_path": "输出\\2026-10-12\\完整代码逐行注释\\main_annotated_Keil_GBK.c",
+    "sha256": "2A37EE2B95C65824B8603F4D1B8B8DC789019AC35716479E42FD66282679A2D6",
+    "bytes": 10343
+  },
+  {
+    "relative_path": "输出\\2026-10-12\\完整代码逐行注释\\main_annotated.c",
+    "sha256": "D1C5DF25C8DBC36F5EDE5B611F185D8C256016E72B4D4EB2761FB490B8A7887B",
+    "bytes": 13038
+  },
+  {
+    "relative_path": "输出\\2026-10-13\\prepare_alarm_upgrade.py",
+    "sha256": "CB0B4F2B0B5DCA696F67BD5E910ED6A9D33622806A54FC89268B80EEC7547529",
+    "bytes": 5920
+  },
+  {
+    "relative_path": "输出\\2026-10-13\\prepare_proximity_upgrade.py",
+    "sha256": "C7FA7B9C5D6981F3C9B887AA69CAEA18BD11B881ED4FDEEDAC8FFA73485782C5",
+    "bytes": 5329
+  },
+  {
+    "relative_path": "输出\\2026-10-13\\prepare_threshold_upgrade.py",
+    "sha256": "F354ED86FE4FB4C9D501E35EFE8E1AE6A4445996B488CCC6E435E39D254EF14C",
+    "bytes": 5634
+  },
+  {
+    "relative_path": "输出\\2026-10-13\\Ultrasonic_Alarm\\main.c",
+    "sha256": "5B203409B5CE1100A7547E4AD784153B34A049FCFD331D31D0FEB67CD6703AA5",
+    "bytes": 7003
+  },
+  {
+    "relative_path": "输出\\2026-10-13\\Ultrasonic_Alarm\\Ultrasonic_Alarm.uvproj",
+    "sha256": "C13E8429E996FAEC1A111963DAA9A0870101D7AC70AA1834B920F5C22185B43E",
+    "bytes": 13675
+  },
+  {
+    "relative_path": "输出\\2026-10-13\\Ultrasonic_Proximity\\main.c",
+    "sha256": "76FD4ACAC2ADD9F476C097D6562428F6F5B030D8133079A2FF9CDB20D6CD5293",
+    "bytes": 8472
+  },
+  {
+    "relative_path": "输出\\2026-10-13\\Ultrasonic_Proximity\\Ultrasonic_Proximity.uvproj",
+    "sha256": "533E5AEC3FB6442AD4790757D4F8E3E450A032E0BCD4F3DB2FB4594E1C1B9877",
+    "bytes": 13683
+  },
+  {
+    "relative_path": "输出\\2026-10-13\\Ultrasonic_Threshold\\main.c",
+    "sha256": "848B48F707DE672E75380A73E0A4034A6AB1881937450CCCA21F19587E1FA267",
+    "bytes": 5286
+  },
+  {
+    "relative_path": "输出\\2026-10-13\\Ultrasonic_Threshold\\Ultrasonic_Threshold.uvproj",
+    "sha256": "D04D1A743B01642FC27534C333E9642D48DF8B788208B010FE2376FEAED97214",
+    "bytes": 13683
+  },
+  {
+    "relative_path": "输出\\2026-10-13\\答辩PPT\\build_deck.js",
+    "sha256": "AE45A4C3990F387E70CFA05DBC0BEF0CDA2A08A9B0405BD146614BB7A3C99C6F",
+    "bytes": 10023
+  },
+  {
+    "relative_path": "输出\\2026-10-13\\答辩PPT\\redesign.js",
+    "sha256": "8DC66A682937CC225B7A2CD07A581BD8DED8A79A8CCD8883FDD1BC3D48EDAA40",
+    "bytes": 13375
+  }
+]
