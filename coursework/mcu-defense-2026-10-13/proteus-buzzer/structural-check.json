@@ -1,0 +1,21 @@
+{
+  "project": "Ultrasonic_Proximity_Buzzer.pdsprj",
+  "components": 23,
+  "original_unchanged": true,
+  "native_codec_reopen": true,
+  "firmware_sha256": "16824cf8ded871fb3fd8751f2a2f330be02ae89d5795ada72c022eb53ca8ba36",
+  "new_parts": [
+    "Q1",
+    "R2",
+    "R4",
+    "LS1",
+    "SW2",
+    "SW3",
+    "R5",
+    "R6",
+    "R7",
+    "R8"
+  ],
+  "electrical_runtime_verified": false,
+  "audio_heard_verified": false
+}

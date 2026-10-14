@@ -1,0 +1,14 @@
+{
+  "key_plus_verified": "30 -> 35 cm",
+  "alarm_exit_verified": "42 cm, limit 35 cm, marker -",
+  "original_project_unchanged": true,
+  "final_version_distance_cm": 20,
+  "final_version_limit_cm": 30,
+  "speaker_activity_seen": true,
+  "project_loaded": true,
+  "audio_capture_verified": false,
+  "final_version_alarm_marker": "!",
+  "proteus_version": "8.17",
+  "exact_frequency_and_burst_timing_measured": false,
+  "key_minus_verified": "40 -> 35 cm"
+}
