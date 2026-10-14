@@ -1,0 +1,44 @@
+{
+  "artifact": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\单片机课设_学术完整答辩_实拍配图版\\超声波测距与分级报警_实拍标注版.pptx",
+  "sha256": "9a5272f19ccb1d95b581e248de1b2775330f88aaf310345232e3bbe76cff0dc3",
+  "previous_sha256": "1b16232926fdf64f13ce0c67363e2142fe3155de8050e8b81d87854cdb592e40",
+  "verdict": "PASS: all previously identified content excerpt defects resolved",
+  "review_scope": "Requested delta recheck of9/18/23/25 only; previous full content audit retained for unchanged content; no render/layout verdict",
+  "checks": [
+    {
+      "slide": 9,
+      "status": "pass",
+      "source": "输出/2026-10-12/Ultrasonic_Test/main.c",
+      "whitespace_normalized_contiguous_source_match": true,
+      "braces_balanced": true,
+      "excerpt": "timer0_start();\nwhile(ECHO==0) {\n    if(TF0!=0) { TR0=0; return 0; }\n}\ntimer0_start();\nwhile(ECHO!=0) {\n    if(TF0!=0) { TR0=0; return 0; }\n}\nTR0=0;\nif(TF0!=0) return 0;\nticks=((unsigned int)TH0<<8)|TL0;\nreturn ticks;",
+      "verified_fix": "two complete Echo wait loops and independent timer0_start calls visible; no orphan closing brace"
+    },
+    {
+      "slide": 18,
+      "status": "pass",
+      "source": "输出/2026-10-13/Ultrasonic_Threshold/main.c",
+      "whitespace_normalized_contiguous_source_match": true,
+      "braces_balanced": true,
+      "excerpt": "if(raw != key_candidate) {\n    key_candidate = raw;\n    key_samples = 1;\n} else if(key_samples < 3) {\n    key_samples++;\n}\nif(key_samples < 3 || raw == key_stable)\n    return;\nkey_stable = raw;\nif(raw == 0) {\n    key_armed = 1; return;\n}\nif(!key_armed) return;\nkey_armed = 0;",
+      "verified_fix": "candidate/sample count/stable-state/release armed transition visible; source sequence unchanged except whitespace"
+    },
+    {
+      "slide": 25,
+      "status": "pass",
+      "source": "输出/2026-10-13/Ultrasonic_Proximity/main.c",
+      "whitespace_normalized_contiguous_source_match": true,
+      "braces_balanced": true,
+      "excerpt": "quarter_count++;\nif(quarter_count >= 4) {\n    quarter_count = 0;\n    if(alarm_on) {\n        if(phase_ms != 0) phase_ms--;\n        if(phase_ms == 0) {\n            burst_on = !burst_on;\n            phase_ms = burst_on ?\n                50 : quiet_ms;\n        }\n    }\n}\nif(alarm_on && burst_on) BEEP = !BEEP;\nelse BEEP = 1;",
+      "verified_fix": "quarter_count>=4 plus alarm_on scopes visible; countdown and output gate match actual ISR"
+    },
+    {
+      "slide": 23,
+      "status": "pass",
+      "verified_fix": "middle band explicitly L/3 < d <= 2L/3; 70/200/450 quiet and50 on remain nominal; corresponds to ordered if/else code",
+      "source": "输出/2026-10-13/Ultrasonic_Proximity/main.c / alarm_evaluate"
+    }
+  ],
+  "remaining_required_fixes": [],
+  "ppt_modified_by_reviewer": false
+}

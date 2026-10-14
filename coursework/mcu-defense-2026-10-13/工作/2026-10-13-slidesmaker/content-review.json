@@ -1,0 +1,176 @@
+{
+  "reviewed_artifact": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\单片机课设_学术完整答辩_实拍配图版\\超声波测距与分级报警_实拍标注版.pptx",
+  "sha256": "1b16232926fdf64f13ce0c67363e2142fe3155de8050e8b81d87854cdb592e40",
+  "scope": "32页PPT全部文字与讲稿关键代码核对；六版源码重新读取；实拍6页总览与31页放大视觉核对；未修改PPT",
+  "verdict": "content corrections required: source excerpts on slides9/18/25; quantitative claims otherwise supported with limits",
+  "rubric_overlay": "Thesis / committee defense",
+  "checks": [
+    {
+      "item": "接线",
+      "status": "pass",
+      "slides": [
+        3,
+        4,
+        17,
+        21
+      ],
+      "actual": "Trig P1.0/Echo P1.1；LCD P0、RS P2.6/RW P2.5/E P2.7；K3 P3.2/K4 P3.3；BEEP P1.5/J7，与实际声明一致。照片遮挡位置未被当作单针接线证据。"
+    },
+    {
+      "item": "计时与换算",
+      "status": "pass",
+      "slides": [
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "actual": "11.0592MHz、12T、921600Hz及1.085us正确；回波有两个计时窗口；实际公式32位乘法+267264/534528与原代码一致。Trig/Echo标为示意非实测。第9展示片段需修复，文字解释正确。"
+    },
+    {
+      "item": "LCD",
+      "status": "pass",
+      "slides": [
+        11,
+        12,
+        13,
+        15
+      ],
+      "actual": "两行独测字符串、8位总线、控制信号、初始化常数、0x80/0xC0地址与源码相同。LCD预期内容明确非实物照片。"
+    },
+    {
+      "item": "按键阈值",
+      "status": "pass_with_excerpt_fix",
+      "slides": [
+        17,
+        18,
+        19
+      ],
+      "actual": "初始30、步长5、范围5–200、三次一致扫描、释放重新armed、双键不修改和20段10ms空闲扫描正确。第18节选没有展示三次一致判定。"
+    },
+    {
+      "item": "回差与无效数据",
+      "status": "pass",
+      "slides": [
+        20,
+        28
+      ],
+      "actual": "有效d<=L进入，已报警d>=L+3退出，中间保持，!是alarm状态；无回波关闭且明确不是零厘米或无障碍结论。"
+    },
+    {
+      "item": "音调/包络",
+      "status": "pass_with_excerpt_fix",
+      "slides": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "actual": "0xFF1A=230计数半周期，约2003.5Hz；4中断约0.998ms；50ms响、70/200/450ms静音；测距暂停且保留phase/burst均正确。第25拼接展示隐藏关键分频层。"
+    },
+    {
+      "item": "定时器与共享状态",
+      "status": "pass",
+      "slides": [
+        22,
+        26,
+        27,
+        28
+      ],
+      "actual": "T0计时/延时、T1串口、T2内部时钟发声；EXEN2关闭不占用外部T2/T2EX；volatile不保证16位原子更新及EA保护解释正确。"
+    },
+    {
+      "item": "历史与定量证据边界",
+      "status": "pass",
+      "slides": [
+        7,
+        16,
+        29,
+        30,
+        31
+      ],
+      "actual": "17–19为用户反馈，20→21标仿真；1178/1824/2016/2286来自构建日志；误差<=5cm是要求，重复测量是计划；音量和名义时长没有夸大为实测。"
+    },
+    {
+      "item": "实拍标注",
+      "status": "pass_with_scope_limit",
+      "slides": [
+        3,
+        4,
+        17,
+        21,
+        29,
+        31
+      ],
+      "actual": "查看六页联系表与31页1920像素放大：模块标注对象相符；31 LCD可见Dist37cm及Limit030cm，读数说明有图像支持。照片不能证明接线遮挡处每个端点与声音效果，页文未作此推断。"
+    },
+    {
+      "item": "讲稿源码完整性",
+      "status": "pass",
+      "actual": [
+        {
+          "slide": 9,
+          "has_full_code": true
+        },
+        {
+          "slide": 18,
+          "has_full_code": true
+        },
+        {
+          "slide": 25,
+          "has_full_code": true
+        }
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "severity": "major",
+      "slide": 9,
+      "title": "自动首尾截取删去第一个计时窗口并留下孤立右花括号",
+      "evidence": "显示unsigned int ticks后立即省略，再出现单独}，仅展示第二次timer0_start。原源码两次启动的因果关系是本页标题和内容核心。",
+      "required_fix": "展示真实连续片段，从第一次timer0_start()至第二个while块结束，约9行；其余返回与拼接放讲稿。避免展示伪完整函数头/尾。",
+      "source": "输出/2026-10-12/Ultrasonic_Test/main.c ultrasonic_read"
+    },
+    {
+      "severity": "major",
+      "slide": 25,
+      "title": "节选删除quarter_count与报警条件，残留两层闭合括号，误导包络时基",
+      "evidence": "phase_ms--看似每次中断执行，实际仅quarter_count>=4且alarm_on成立时执行。标题强调双层音调/包络，该条件不可省略。",
+      "required_fix": "保留从quarter_count++至if(alarm_on && burst_on)输出的连续真实片段，去掉函数壳/清标志而不删核心条件；约14行。",
+      "source": "输出/2026-10-13/Ultrasonic_Proximity/main.c timer2_isr"
+    },
+    {
+      "severity": "moderate",
+      "slide": 18,
+      "title": "消抖页上屏代码只讲加减阈值，没有证明连续三次采样与释放",
+      "evidence": "省略后只剩if(!key_armed)、limit+=5/-=5；稳定判定逻辑完全丢失。虽然正文正确，代码不能支持本页核心解释。",
+      "required_fix": "改选从if(raw != key_candidate)到if(!key_armed)的真实连续片段，可在注释说明raw已读取，阈值加减已在前页解释。",
+      "source": "输出/2026-10-13/Ultrasonic_Threshold/main.c keys_poll"
+    },
+    {
+      "severity": "minor",
+      "slide": 23,
+      "title": "三档示意的中档标签可消除范围重叠",
+      "evidence": "近标<=L/3，中标<=2L/3。源码由if/else优先级保证互斥，独立图标签不直观。",
+      "required_fix": "将中档标签写为L/3 < d <= 2L/3；近档有效d<=L/3；远档写其余报警区。",
+      "source": "输出/2026-10-13/Ultrasonic_Proximity/main.c alarm_evaluate"
+    }
+  ],
+  "not_findings": [
+    "代码含省略注释本身允许，不要求完整可编译；问题是丢失核心条件及未配对控制结构造成误读。",
+    "完整源码已在讲稿不能替代修正投影页的错误程序结构。",
+    "未见伪造实测精度、把无回波当无障碍、或误声称降低瞬时音量。"
+  ],
+  "source_hashes": {
+    "输出/2026-10-12/Ultrasonic_Test/main.c": "49b52c651549e62611ce64ae1d60d7cb74e02d36a8936bccce7cfda261f14ae7",
+    "输出/2026-10-12/LCD1602_Test/main.c": "14c7f8c576f517da6201482f6a6b54797076b2674ebe6d5e1bcbcc1676f70cf0",
+    "输出/2026-10-12/Ultrasonic_LCD1602/main.c": "fa6aa5b3e2a20406723822f9f351a163fbb484301ab1e64c9ed733ba86057276",
+    "输出/2026-10-13/Ultrasonic_Threshold/main.c": "848b48f707de672e75380a73e0a4034a6ab1881937450ccca21f19587e1fa267",
+    "输出/2026-10-13/Ultrasonic_Alarm/main.c": "5b203409b5ce1100a7547e4ad784153b34a049fcfd331d31d0feb67cd6703aa5",
+    "输出/2026-10-13/Ultrasonic_Proximity/main.c": "76fd4acac2add9f476c097d6562428f6f5b030d8133079a2ff9cdb20d6cd5293"
+  }
+}

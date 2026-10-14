@@ -1,0 +1,92 @@
+{
+  "status": "design plan only; build and visual verification pending",
+  "authorization": {
+    "template": "User selected slides_maker lab meeting/paper talk template",
+    "visual_language": "User explicitly selected journal",
+    "content": "User approved revised focus: at least 80% experiment principles, components, wiring and each function implementation; minor questions grouped",
+    "rendered_design_approval": "not requested or claimed; existing selection authorizes implementation"
+  },
+  "template_reference": "D:/Documents/ChatGPT/study/实验4/工具/slides_maker-site/templates/decks/zh/transformer-talk/template.pptx",
+  "template_transfer": "Transfer Chinese academic editorial hierarchy, native architecture/flow figures, numbered captions and varied purposeful page composition. Replace Transformer subject and its color meanings. User journal selection supplies the final journal visual system.",
+  "visual_language": "journal",
+  "vl_fonts": "both",
+  "vl_ground": "light",
+  "look_source": "provided",
+  "style_pick": "n/a — locked: user-selected lab meeting/paper talk template and journal language",
+  "freshness": "look LOCKED (provided template and explicit journal selection) — carve applies",
+  "guard": "custom journal language — no unrelated preset guards; native language forbids confetti",
+  "concept": {
+    "winner": "An experiment notebook becoming a working signal chain",
+    "ladder": "component tests → input/process/output and measured states → native wiring, timing and state diagrams with captions",
+    "rejected": [
+      "A chronology-only logbook — retains dates but makes the physical and software mechanisms secondary",
+      "A final-product dashboard — attractive overview but repeats the previous omission of initial module tests"
+    ]
+  },
+  "boldness": "conservative — undergraduate technical defense",
+  "signature_move": "One signal path changes form: physical propagation on cover, Echo timing in principle section, alarm envelope in upgrade section. Same typography and ink; diagrams do structural work rather than decorate.",
+  "palette": {
+    "ground": "FBFAF6",
+    "panel": "F1EFE7",
+    "ink": "1B1B1B",
+    "mute": "5A5A55",
+    "accent": "1F5C46",
+    "line": "D7D4CA"
+  },
+  "semantic_color_ledger": [
+    {"token":"1F5C46","role":"active operation or currently discussed signal/control path","must_not":"stand for measured pass, safety, or every unrelated category"},
+    {"token":"1B1B1B","role":"structure, ordinary text, inactive trace and source code","must_not":"carry hidden success/failure semantics"},
+    {"token":"5A5A55","role":"secondary explanation, nominal-value disclaimers and citations","must_not":"carry main instructional text at tiny sizes"},
+    {"token":"F1EFE7","role":"quiet separation behind code or a compact note","must_not":"become a repeated card grid"}
+  ],
+  "type": {
+    "chinese_display": "SimSun",
+    "chinese_body": "Microsoft YaHei",
+    "latin_display": "Georgia",
+    "latin_body": "Georgia",
+    "code": "Consolas",
+    "meta": "Arial",
+    "named_deviation": "Windows CJK title uses SimSun and body uses Microsoft YaHei for readable projected technical content; Latin journal typography remains intact.",
+    "size_at_13_333x7_5_in": {"title_pt":32,"body_pt":22,"diagram_labels_pt":18,"code_pt":16,"source_pt":10.5},
+    "size_policy": "Scale with canvas. Split long code into logically complete excerpts instead of shrinking. Caption/source tiny text is secondary only. Verify rendered CJK and formulas."
+  },
+  "composition": {
+    "cover": "journal title, compact abstract, and a native sensor-to-target-to-Echo signal figure; no fabricated photograph",
+    "home": "main figure plus narrow numbered margin explanation",
+    "content_rectangle": "reserve top running head and assertion title, bottom caption/source; margin note never overlays figure",
+    "chrome": "short running title, chapter label, page number; no institutional logo invented",
+    "connectors": "draw behind nodes; start and finish at boundaries; orthogonal routes; labels beside rather than atop paths"
+  },
+  "layout_vocabulary": [
+    {"id":"architecture","use":"hardware inventory and final integration","hero":"large native block/wiring diagram","support":"signal direction and exact verified pin labels"},
+    {"id":"signal_timing","use":"Trig/Echo, counting windows, buzzer carrier/envelope","hero":"full-width aligned time traces","support":"numbered explanatory clauses under traces; explicitly schematic or nominal"},
+    {"id":"code_mechanism","use":"ultrasonic_read, LCD write, keys_poll, alarm_evaluate, ISR","hero":"8–14 essential verified source lines","support":"right-side numbered prose and arrows connecting code regions to behavior"},
+    {"id":"wiring_protocol","use":"ultrasonic and LCD standalone testing","hero":"left native connection diagram","support":"right test purpose, execution and observed result; no fake instrument capture"},
+    {"id":"flow","use":"main loop, initialization, keys debounce","hero":"one left-to-right or top-to-bottom flow with explicit conditions","support":"compact actual function names and return values"},
+    {"id":"state","use":"alarm hysteresis","hero":"two states and separate entry/exit arrows, plus a 30–33 cm interval example","support":"invalid-data behavior and state retention"},
+    {"id":"register_or_address","use":"LCD DDRAM and timer allocation","hero":"structured native register/address or resource map","support":"a short code excerpt and calculation"},
+    {"id":"comparison","use":"distance tiers, code versions, verified evidence","hero":"native compact table with one highlighted relevant row","support":"source and explicit measured/configured/planned labels"},
+    {"id":"questions_group","use":"small arithmetic/concurrency follow-up questions","hero":"three concise numbered question/answer rows","support":"details in notes; maximum two consecutive support pages"}
+  ],
+  "rhythm": "cover → system overview → devices/wiring → ultrasound timing → source implementation → test evidence → LCD bus/address → LCD source implementation → integration flow → final interface → keys state/code → hysteresis state → timer resources → buzzer carrier/envelope → tier comparison → integration code → final verification → grouped questions and sources",
+  "rhythm_gates": {"minimum_distinct_protagonists":4,"minimum_non_card_protagonists":3,"maximum_consecutive_card_pages":2,"core_content_min_fraction":0.8,"no_fixed_slide_cap":true},
+  "anchors": [
+    {"id":"cover","purpose":"verify journal identity and topical visual; complete title fits, abstract at readable size, no empty decorative acreage"},
+    {"id":"echo_timing","purpose":"verify Trig/Echo causality, two time windows, waveform labels and schematic disclaimer; large legible diagram"},
+    {"id":"dense_implementation","purpose":"verify longest real code excerpt and associated prose at readable type size; no overlap, clipping, or reduced font to squeeze content"}
+  ],
+  "image_sources": "n/a — native schematics and verified source excerpts. Any subsequently added real board/module screenshot requires its actual source and caption; never generate fake experiment evidence.",
+  "logo_plan": "n/a — institution unspecified; tools and chip names are plain text within technical content",
+  "motion": "static — no user opt-in for animation; diagrams remain inspectable during oral defense",
+  "gates": {
+    "plan": "specified",
+    "palette_contrast": "Plan colors computed using WCAG sRGB relative luminance: ink/mute/accent on FBFAF6 = 16.49/6.64/7.51; on F1EFE7 = 14.96/6.02/6.81. All pass 4.5:1. Actual rendering and thin diagram mark visibility remain pending.",
+    "anchor_render": "pending",
+    "native_editability": "pending verification",
+    "source_fidelity": "pending main-agent content audit against actual files",
+    "core_ratio": "pending final slide-role count; count cover/references/support in denominator for conservative >=80% test",
+    "no_overflow": "pending lint and every-page rendered review",
+    "all_pages_visual_review": "pending",
+    "approval_claim": "No fake new user approval or rendered-design acceptance asserted"
+  }
+}

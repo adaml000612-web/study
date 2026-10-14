@@ -1,0 +1,13 @@
+{
+  "project": "addsumtech/slides_maker",
+  "commit": "3767cc346d63ef1646082c87f15fbf0be582b152",
+  "template": "zh/transformer-talk",
+  "template_path": "D:\\Documents\\ChatGPT\\study\\实验4\\工具\\slides_maker-site\\templates\\decks\\zh\\transformer-talk\\template.pptx",
+  "template_sha256": "CA8002EB710AF53594BDC205B255A869DE784B60876725FC25FDFB01CFF5D2FB",
+  "template_repo_commit": "85f779a655995a21c4cb01002b5b012c0bac85b6",
+  "visual_language": "journal",
+  "page_limit": null,
+  "language": "zh-CN",
+  "scope": "元器件独测到2026-10-13功能升级全流程",
+  "content_checkpoint": "pending"
+}

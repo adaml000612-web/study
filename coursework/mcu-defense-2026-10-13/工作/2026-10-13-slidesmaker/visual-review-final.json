@@ -1,0 +1,285 @@
+{
+  "artifact": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\单片机课设答辩.pptx",
+  "artifact_sha256": "72bba03a1b81c689f4e4610c463a7f8fd5f7a15db8d2e253a0235057d3c30136",
+  "rubric_overlay": "Thesis / committee defense",
+  "reviewer_role": "independent reviewer; authored content data but did not build/edit slides",
+  "coverage_count": 32,
+  "coverage": [
+    {
+      "slide": 1,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide01.png",
+      "image_sha256": "3d9e4748fed72be6cf4fd739120bfb2b23300e7efe3c986b12feb84f1a1f816d",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "封面标题、日期、摘要完整，摘要3行不越界。"
+    },
+    {
+      "slide": 2,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide02.png",
+      "image_sha256": "5d668d3f4dca05553d256821928c6e7bbb080634add5c47d6f24d622c58830e9",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "两内容框与底部实验路线完整，箭头不遮正文。"
+    },
+    {
+      "slide": 3,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide03.png",
+      "image_sha256": "70b17c09705ca8aadee5231974c1497015ce8af48522b7773be4d7876d9200f7",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "整体实拍5个标注文字及引线均可辨，右侧两节正文完整。"
+    },
+    {
+      "slide": 4,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide04.png",
+      "image_sha256": "ea9b17c93c7b440891666782fd0d9c28103c5d5567d462960fefd7b8f8ae56bb",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "端口近照P1/P3/STC标注可辨，右侧接线文字不越界。"
+    },
+    {
+      "slide": 5,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide05.png",
+      "image_sha256": "fc802ac64e95c474974e683d15d0bd5e80468d48f531680d028b0945adc0ff39",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "配置两框完整，底部流程完整。"
+    },
+    {
+      "slide": 6,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide06.png",
+      "image_sha256": "7be796951c9782f831e89116567a68e6d016e4fef3ee2523993901ee297a948c",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "Trig/Echo两路波形不交叉，脉宽解释和公式完整，右侧正文无裁切。"
+    },
+    {
+      "slide": 7,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide07.png",
+      "image_sha256": "fa59a9844555745645598f7358ed0337bddfb659d28d2fd712cd5869205ab3d8",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "独测程序/已有现象两框完整，底部观察流程完整。"
+    },
+    {
+      "slide": 8,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide08.png",
+      "image_sha256": "4ca712eb3b3c9f9c58efecea418e0dd4cd176ea22950c980c859104b4596800d",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "三个计时框的文字完整，右侧数字与公式单位可辨。"
+    },
+    {
+      "slide": 9,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide09.png",
+      "image_sha256": "90a807fbe33242b9cc432c9b1f93bc5eb8873fa75ff733ca716a1c6c0c2e8b5f",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "修复后的双计时窗代码完整可读，return ticks位于代码框内，说明不重叠。"
+    },
+    {
+      "slide": 10,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide10.png",
+      "image_sha256": "309c990f84c3384228427f34c1fdf167762fac067655cd22f522e9e3f2558173",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "三行公式代码与两行解释完整，右侧数字系数未截断。"
+    },
+    {
+      "slide": 11,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide11.png",
+      "image_sha256": "747f31a2a7c183da3e4986f45055cfbf256b0b56e7012277bfeed7d51919c490",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "LCD两行示意字符串均完整，右侧长内容虽较密但未遮挡/裁切。"
+    },
+    {
+      "slide": 12,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide12.png",
+      "image_sha256": "45ad1065d928ce630d5f1c0a52569f0290d193e89559afbfa7068ffb937fefb8",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "控制信号三个框及右侧时序文字完整。"
+    },
+    {
+      "slide": 13,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide13.png",
+      "image_sha256": "57dc126920d0a4d136a94fa5749b48ebb941e328a4cb321d000c6ada5afcdaba",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "13行初始化函数完整在代码框内，右侧地址说明完整。"
+    },
+    {
+      "slide": 14,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide14.png",
+      "image_sha256": "179bf5da30707c02d597a17b94bfbf3e0f84c9acc0734ef9a690d07b326ef13f",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "主循环节选完整，省略注释可见，右侧两节正文完整。"
+    },
+    {
+      "slide": 15,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide15.png",
+      "image_sha256": "a3e5497983d1ddf5654da557ddc4daea83bfedb40f61a2b0e87008b1d80300c2",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "T0复用三个框与右侧字符串说明完整，箭头未遮字。"
+    },
+    {
+      "slide": 16,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide16.png",
+      "image_sha256": "18460c442b04a89207943b8518349572c31645b9b057ce65303c63f31cf6f3eb",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "实物/仿真两条记录完整，分隔线留白充足。"
+    },
+    {
+      "slide": 17,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide17.png",
+      "image_sha256": "759870da2958b00ea65e712d984bb010aba4166960fee7d8734667a73b49b86a",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "K3/K4图片引线分别落在对应按键，标签不遮按键，右侧内容完整。"
+    },
+    {
+      "slide": 18,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide18.png",
+      "image_sha256": "322d3e5c3bff9f41c5de583b9aab5ebd08faa7a6ab63b70d5d76a9fceeff01e1",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "消抖关键代码14行完整，末行key_armed=0位于框内，注释与来源分离。"
+    },
+    {
+      "slide": 19,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide19.png",
+      "image_sha256": "ac1936c614b1f798670313831d07eec51a99b303e085a098585f436273989759",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "空闲扫描两框与底部20段流程完整。"
+    },
+    {
+      "slide": 20,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide20.png",
+      "image_sha256": "f8b72f96f0d6396d473eae2d8b9dfea3d371712d06621d4e810e70f5e2020f13",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "三个回差状态范围完整，L+3文字无截断；右侧状态说明完整。"
+    },
+    {
+      "slide": 21,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide21.png",
+      "image_sha256": "028cddfea8022424fa667525e65fbdd0cbfca284fb32b82c1b1e07657aed924f",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "J7与蜂鸣器标注准确可辨，右侧周期与频率换行完整。"
+    },
+    {
+      "slide": 22,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide22.png",
+      "image_sha256": "6454e2d3252633a4621abe2905402eb0157b7b76986fad859b64f9c6d4a67be4",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "两行对照文字与T0/T1/T2三个框均完整，底部框无裁切。"
+    },
+    {
+      "slide": 23,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide23.png",
+      "image_sha256": "5ab09392f91281dd78cd556b444fb0b90cf91aa690f6b722d5991b4769032446",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "更新后再次逐页放大查看：静音条由浅灰改为深蓝，响/静音边界清晰；三档标签及名义时间完整无遮挡。"
+    },
+    {
+      "slide": 24,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide24.png",
+      "image_sha256": "0fb8663dc5349a8c27e6c60fabd61cb460e2701a0d45ec5f04bc508a0f592bfa",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "固定/分级版两行说明完整，长标题仍在边界内。"
+    },
+    {
+      "slide": 25,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide25.png",
+      "image_sha256": "b6270c12b6595dacf9346f5632dca9387865f9190597b5d2bcdfa551e44a3a01",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "完整分频/包络代码14行可读，else BEEP=1位于框内，右侧说明完整。"
+    },
+    {
+      "slide": 26,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide26.png",
+      "image_sha256": "e1326367d4ca683014ee2c7c0519acfb36b79ccad00565d9d9423c7f4349926a",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "测量保护两框与底部恢复流程完整。"
+    },
+    {
+      "slide": 27,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide27.png",
+      "image_sha256": "d5a862b7b4a64bf1e70613e33544c622174520ca0df2657ffdb853888cac4722",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "实现细节两行内容完整，无符号/变量名丢字。"
+    },
+    {
+      "slide": 28,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide28.png",
+      "image_sha256": "ca81738dbc0fea7c68ace2e0e9a89c99f8cd50287c4c7fe9230598a5414320e6",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "最终主循环两框与底部六步流程完整，不越右界。"
+    },
+    {
+      "slide": 29,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide29.png",
+      "image_sha256": "fddca69eb07816126ead921f6496f0cfdc516ab13c614c0c0574a0c0d3e4fe77",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "装置照片LCD和SR04标注可辨，右侧编译数字完整，页脚与图注分离。"
+    },
+    {
+      "slide": 30,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide30.png",
+      "image_sha256": "1910bbeddafceb0fe34ff85cc4b960d6a893c6499273cd7f2c3c556aeadc07f2",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "验证计划两节数字与边界表述完整，未裁切。"
+    },
+    {
+      "slide": 31,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide31.png",
+      "image_sha256": "0f4f41a243a0f9615b46eac330571076e06918396b939ef679492f96b592f5a8",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "37cm/30cm及手持SR04标注清楚，右侧演示与边界文字完整。"
+    },
+    {
+      "slide": 32,
+      "image": "D:\\Documents\\ChatGPT\\study\\实验4\\输出\\2026-10-13\\答辩交付版\\render\\slide32.png",
+      "image_sha256": "7fbbbb41ed1dfa7e1093dd99abf231d860d65cbb780cb8cf41573e987d70ae5f",
+      "review_method": "individually viewed full 1920x1080 rendered image, not contact sheet only",
+      "status": "pass",
+      "observation": "来源两节正文完整，末页标题与页码未裁切。"
+    }
+  ],
+  "verdict": "PASS for requested final visual checks; no mandatory visual fixes found",
+  "required_fixes": [],
+  "checks": [
+    "逐页标题/正文/代码是否截断或遮挡",
+    "示意图及流程箭头是否遮字",
+    "实拍标注与引线落点",
+    "页码/图注/页脚是否挤压主体内容"
+  ],
+  "scope_limits": [
+    "检查的是提供的32张1920x1080渲染图，不是另一个软件里现场播放结果。",
+    "页脚来源有显式省略号且字体较小，是构建时摘要截短；不作为主体文字溢出，也不在本轮要求重设计。完整来源保留在讲稿/备注。",
+    "本报告不把排版通过等同于新的实物功能或精度验证。"
+  ],
+  "ppt_modified_by_reviewer": false,
+  "lint_triage": [
+    "源码花括号在9/13/14/18/25实际渲染中清晰可见，invisible不构成真实隐藏。",
+    "实拍标签、引线及圆点有意叠图，未遮盖关键器件识别。",
+    "15页末行符。独立换行属排版瑕疵但正文未丢失，不作为本次必修。"
+  ],
+  "delta_recheck": "Slide23 dark-blue bars visually rechecked after latest render; all other31 image coverage retained."
+}
