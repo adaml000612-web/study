@@ -2,7 +2,8 @@
 SQLyog Ultimate v10.00 Beta1
 MySQL - 5.5.15 : Database - myemployees
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 

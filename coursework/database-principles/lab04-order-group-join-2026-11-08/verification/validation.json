@@ -1,0 +1,14 @@
+{
+  "report_pages": 46,
+  "report_figures": 63,
+  "relax_steps": 12,
+  "mysql_successful_result_sets": 40,
+  "expected_mysql_errors": [
+    1111,
+    1055,
+    1066
+  ],
+  "data_comparison": "all rows matched teacher SQL data",
+  "visual_review": "all pages reviewed",
+  "report_sha256": "b16830bab3d068a4807378da62f2dfb2e8c8f7b8f71345f560720c6a28f7a0fa"
+}
