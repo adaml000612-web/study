@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ra01",
+    "title": "排序步骤1 选表",
+    "query": "employees"
+  },
+  {
+    "id": "ra02",
+    "title": "排序步骤2 筛选",
+    "query": "σ salary > 5400 (employees)"
+  },
+  {
+    "id": "ra03",
+    "title": "排序步骤3 投影",
+    "query": "π employee_id, last_name, department_id, salary (σ salary > 5400 (employees))"
+  },
+  {
+    "id": "ra04",
+    "title": "排序步骤4 排序",
+    "query": "τ department_id asc, salary desc (π employee_id, last_name, department_id, salary (σ salary > 5400 (employees)))"
+  },
+  {
+    "id": "ra05",
+    "title": "分组步骤2 非空部门",
+    "query": "σ department_id != null (employees)"
+  },
+  {
+    "id": "ra06",
+    "title": "分组步骤3 聚合",
+    "query": "γ department_id; count(employee_id)→employee_count, avg(salary)→avg_salary (σ department_id != null (employees))"
+  },
+  {
+    "id": "ra07",
+    "title": "分组步骤4 筛选组",
+    "query": "σ avg_salary > 4800 (γ department_id; count(employee_id)→employee_count, avg(salary)→avg_salary (σ department_id != null (employees)))"
+  },
+  {
+    "id": "ra08",
+    "title": "分组步骤5 排序",
+    "query": "τ avg_salary desc (σ avg_salary > 4800 (γ department_id; count(employee_id)→employee_count, avg(salary)→avg_salary (σ department_id != null (employees))))"
+  },
+  {
+    "id": "ra09",
+    "title": "连接步骤1 部门表",
+    "query": "departments"
+  },
+  {
+    "id": "ra10",
+    "title": "连接步骤2 等值连接",
+    "query": "employees ⨝ employees.department_id = departments.department_id departments"
+  },
+  {
+    "id": "ra11",
+    "title": "连接步骤3 投影",
+    "query": "π departments.department_id, department_name, employee_id, last_name (employees ⨝ employees.department_id = departments.department_id departments)"
+  },
+  {
+    "id": "ra12",
+    "title": "连接步骤4 排序后投影",
+    "query": "π departments.department_id, department_name, employee_id, last_name (τ departments.department_id asc, salary asc (employees ⨝ employees.department_id = departments.department_id departments))"
+  }
+]

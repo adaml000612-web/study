@@ -1,0 +1,35 @@
+排序步骤1 选表
+employees
+
+排序步骤2 筛选
+σ salary > 5400 (employees)
+
+排序步骤3 投影
+π employee_id, last_name, department_id, salary (σ salary > 5400 (employees))
+
+排序步骤4 排序
+τ department_id asc, salary desc (π employee_id, last_name, department_id, salary (σ salary > 5400 (employees)))
+
+分组步骤2 非空部门
+σ department_id != null (employees)
+
+分组步骤3 聚合
+γ department_id; count(employee_id)→employee_count, avg(salary)→avg_salary (σ department_id != null (employees))
+
+分组步骤4 筛选组
+σ avg_salary > 4800 (γ department_id; count(employee_id)→employee_count, avg(salary)→avg_salary (σ department_id != null (employees)))
+
+分组步骤5 排序
+τ avg_salary desc (σ avg_salary > 4800 (γ department_id; count(employee_id)→employee_count, avg(salary)→avg_salary (σ department_id != null (employees))))
+
+连接步骤1 部门表
+departments
+
+连接步骤2 等值连接
+employees ⨝ employees.department_id = departments.department_id departments
+
+连接步骤3 投影
+π departments.department_id, department_name, employee_id, last_name (employees ⨝ employees.department_id = departments.department_id departments)
+
+连接步骤4 排序后投影
+π departments.department_id, department_name, employee_id, last_name (τ departments.department_id asc, salary asc (employees ⨝ employees.department_id = departments.department_id departments))
