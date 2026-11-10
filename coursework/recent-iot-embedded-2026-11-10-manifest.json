@@ -1,0 +1,194 @@
+{
+  "coursework/iot-access/ble-security/main/CMakeLists.txt": {
+    "sha256": "e80abc932d9a1b812ef012cc93294ff620cd9bdce4638461db7c9b861396c9ba",
+    "bytes": 197
+  },
+  "coursework/iot-access/ble-security/main/idf_component.yml": {
+    "sha256": "3e5266fe49daf2491ac2cfb2ea2b096dd456e67ce829130b3fdc988b8db027da",
+    "bytes": 46
+  },
+  "coursework/iot-access/ble-security/main/Kconfig.projbuild": {
+    "sha256": "fc98b3ceac5aadea2e15f4ccdb9364969cc443baf21eac353d2b97c39b1a8c6d",
+    "bytes": 1398
+  },
+  "coursework/iot-access/ble-security/main/main.c": {
+    "sha256": "18e640914abb6e4d2f3ed6ac839a15564ebb1969c8fe7135f677261957d1b2e6",
+    "bytes": 4148
+  },
+  "coursework/iot-access/ble-security/main/include/common.h": {
+    "sha256": "571ddd5e734415d88ceecc87fac26e9831bb12a423b6b6ea0526192ff60e8df9",
+    "bytes": 761
+  },
+  "coursework/iot-access/ble-security/main/include/gap.h": {
+    "sha256": "51cef26154bc038af2abfa6b973864f33e4c5b63e474722313dc41ed50891435",
+    "bytes": 554
+  },
+  "coursework/iot-access/ble-security/main/include/gatt_svc.h": {
+    "sha256": "69e00e137250d554a90c93026cf098d625b32cac9938c8754ff3654b0b3d389d",
+    "bytes": 573
+  },
+  "coursework/iot-access/ble-security/main/include/heart_rate.h": {
+    "sha256": "fe43a40b6c8b0130577463e9e71a2b7557633ae4efb28f39e0aaa7a8dbcf8ad9",
+    "bytes": 418
+  },
+  "coursework/iot-access/ble-security/main/include/led.h": {
+    "sha256": "97dcf69be3e6b491e9290164b99c8f7cb69af4fd94fe8d5ebe2e2e7e16e169db",
+    "bytes": 451
+  },
+  "coursework/iot-access/ble-security/main/include/security.h": {
+    "sha256": "406b1350e055abfc64f18415374acba5fbc8c44022705cacb347e458f204d89a",
+    "bytes": 244
+  },
+  "coursework/iot-access/ble-security/main/src/gap.c": {
+    "sha256": "137cf656f68bc9d8416a3dab54e49a0d5219e46abfb92f783d5757b5af9e84d9",
+    "bytes": 12920
+  },
+  "coursework/iot-access/ble-security/main/src/gatt_svc.c": {
+    "sha256": "193caefc139dbdbb52cada5f3dabd85e2e0623ce043bf550f88048cc78eb5a06",
+    "bytes": 12418
+  },
+  "coursework/iot-access/ble-security/main/src/heart_rate_mock.c": {
+    "sha256": "b788dfc200925669c2a5ccbaae9fb0647a279b99d17345131c48f4c24b2cf041",
+    "bytes": 396
+  },
+  "coursework/iot-access/ble-security/main/src/led.c": {
+    "sha256": "79a4edd6a2901c155f2065ec663d86fa4291c352d1c43c5738214545fdb2355c",
+    "bytes": 2207
+  },
+  "coursework/iot-access/ble-security/main/src/security.c": {
+    "sha256": "7bdd8c3a9e887c5e20d8fdc88c648f07c147ca5fdae8c0e02354b70a39f4b7e6",
+    "bytes": 3850
+  },
+  "coursework/iot-access/ble-security/CMakeLists.txt": {
+    "sha256": "93b86c652734d5f379f11d9cb64fb2aaeca187d39ccaacdc82e3ff3e8e98c199",
+    "bytes": 374
+  },
+  "coursework/iot-access/ble-security/dependencies.lock": {
+    "sha256": "86591dbe2f93af2e798f3769a0652934af0c70565f3709f6b33fbb4c9be90112",
+    "bytes": 535
+  },
+  "coursework/iot-access/ble-security/sdkconfig": {
+    "sha256": "cb3871ec9b515227b656ad100b85051d628f96ff91aa94326444e6bb8886bae4",
+    "bytes": 99370
+  },
+  "coursework/iot-access/ble-security/sdkconfig.defaults": {
+    "sha256": "6532bf4933b247c4a0d6b32fc22ac3c9c594e06b9eb666db5a6d1b287525236e",
+    "bytes": 130
+  },
+  "coursework/iot-access/ble-security/sdkconfig.defaults.esp32": {
+    "sha256": "131ce8e2687e0a35e61e2904df7cf4d30ab6a56f0eea3ec80a5a35f62b2840f3",
+    "bytes": 20
+  },
+  "coursework/iot-access/ble-security/sdkconfig.defaults.esp32c3": {
+    "sha256": "c40d3db5784948e93b659b74a735ee48f9422e984e8c06b73d1fa028a59174ca",
+    "bytes": 25
+  },
+  "coursework/iot-access/ble-security/sdkconfig.defaults.esp32c5": {
+    "sha256": "15f32367abc5b2b202b9443f37ba8c2f198739bf9e29098543cc49282bde2142",
+    "bytes": 46
+  },
+  "coursework/iot-access/ble-security/sdkconfig.defaults.esp32c6": {
+    "sha256": "c40d3db5784948e93b659b74a735ee48f9422e984e8c06b73d1fa028a59174ca",
+    "bytes": 25
+  },
+  "coursework/iot-access/ble-security/sdkconfig.defaults.esp32c61": {
+    "sha256": "c40d3db5784948e93b659b74a735ee48f9422e984e8c06b73d1fa028a59174ca",
+    "bytes": 25
+  },
+  "coursework/iot-access/ble-security/sdkconfig.defaults.esp32h2": {
+    "sha256": "c40d3db5784948e93b659b74a735ee48f9422e984e8c06b73d1fa028a59174ca",
+    "bytes": 25
+  },
+  "coursework/iot-access/ble-security/sdkconfig.defaults.esp32s3": {
+    "sha256": "af6ec2986a45aa901255c5b9beca9deae3b098c5f9427455b88c8dfdb61336c3",
+    "bytes": 46
+  },
+  "coursework/iot-access/ble-security/.gitignore": {
+    "sha256": "aff48eb62a2ea9557bc9e772a62e35926ac38ec5f8ad46a0755d2c1919884c39",
+    "bytes": 59
+  },
+  "coursework/iot-access/ble-beacon/main/CMakeLists.txt": {
+    "sha256": "ae891ec46deed0283ca67ce1eafa059df805fafe656186b44624e1b1a2750471",
+    "bytes": 181
+  },
+  "coursework/iot-access/ble-beacon/main/main.c": {
+    "sha256": "ddf04b603b08ab872c01146dcb071f777b8683a4555e07e3a2f8f053c295330b",
+    "bytes": 5854
+  },
+  "coursework/iot-access/ble-beacon/main/include/common.h": {
+    "sha256": "52d7b2469414e02c4980fc4d455dbc3b1358d98ed929cb94894a27e760638489",
+    "bytes": 1259
+  },
+  "coursework/iot-access/ble-beacon/main/include/gap.h": {
+    "sha256": "7b03b8615af211a183d426ddb266beb4c391d4c3e1514be1d98c2010e14ab705",
+    "bytes": 545
+  },
+  "coursework/iot-access/ble-beacon/main/src/gap.c": {
+    "sha256": "2dee3a43e9de2ceac8780dbc45a82808587e4a778770d1c1e4c7ed5b8f39c217",
+    "bytes": 6856
+  },
+  "coursework/iot-access/ble-beacon/CMakeLists.txt": {
+    "sha256": "b92b2f9f1734cd5330efc1304a30981ece171b0fb53142d71e91f416f3e22c91",
+    "bytes": 372
+  },
+  "coursework/iot-access/ble-beacon/sdkconfig": {
+    "sha256": "441dc0c65a9f6d48c8ffc569408f621233c92e6045f11939ab1b447cc79902f4",
+    "bytes": 98399
+  },
+  "coursework/iot-access/ble-beacon/sdkconfig.defaults": {
+    "sha256": "0474660f491734683a834c1bf3f73c8d2ce01fb8a1cb501074895398e21b2d2e",
+    "bytes": 85
+  },
+  "coursework/iot-access/ble-beacon/.gitignore": {
+    "sha256": "aff48eb62a2ea9557bc9e772a62e35926ac38ec5f8ad46a0755d2c1919884c39",
+    "bytes": 59
+  },
+  "coursework/embedded-linux/calc-makefile/add.c": {
+    "sha256": "6aa660f8cac1d0721fac59e791415cebc07ba99c24040144d59801beaada4014",
+    "bytes": 77
+  },
+  "coursework/embedded-linux/calc-makefile/dec.c": {
+    "sha256": "d0f16f3990764635b07231087d140c31e50beb02ef291e332b5117766b3f6e4d",
+    "bytes": 77
+  },
+  "coursework/embedded-linux/calc-makefile/div.c": {
+    "sha256": "32caa02c21028c5c96b4bb3605b9be619027dbe5cac3d4612f52f5d9a2efb304",
+    "bytes": 177
+  },
+  "coursework/embedded-linux/calc-makefile/main.c": {
+    "sha256": "9bc1a1d2d7a096e5515f1948ef98dffe232a4becc5aa1d2ff9ae296003782651",
+    "bytes": 116
+  },
+  "coursework/embedded-linux/calc-makefile/main.h": {
+    "sha256": "98b8f18e2957635a04f11c67565b713088168206603dd7c01790ff09b6396ed0",
+    "bytes": 165
+  },
+  "coursework/embedded-linux/calc-makefile/Makefile": {
+    "sha256": "afe58c67743e5e8bd9ec7166fceec2db8b10be7bb2f875e07158515e4bf7bf16",
+    "bytes": 256
+  },
+  "coursework/embedded-linux/calc-makefile/mil.c": {
+    "sha256": "96d64f923e40ddc8cb4ae92ba5acf8533291e383ef5bef4cb697afb6d8018164",
+    "bytes": 77
+  },
+  "coursework/embedded-linux/lab03-kernel/boot.img": {
+    "sha256": "b59655c953e05486c35e2e401375b2f714cdf3b9447f4fb5697e0eba9f27e62c",
+    "bytes": 12853432
+  },
+  "coursework/embedded-linux/lab03-kernel/kernel.config": {
+    "sha256": "307510b91e7a4592f76194e103a06337ad9e388422e0c78c6fae75095ef22cac",
+    "bytes": 87704
+  },
+  "coursework/embedded-linux/lab03-kernel/uImage": {
+    "sha256": "b8b2c506ac082d11333d80ba99d64a88a11ace79e737522e0b6818592bf1c146",
+    "bytes": 4998296
+  },
+  "coursework/iot-access/README.md": {
+    "sha256": "f92f48e25b8237d2b3079838ee891ea0757f24810deb8148711d2404ce3a9c2e",
+    "bytes": 752
+  },
+  "coursework/embedded-linux/README.md": {
+    "sha256": "bde87ee66f19aa289e930f1e1ea6ad853ddc7acc57e7e1b1618bb7d16a038363",
+    "bytes": 640
+  }
+}
