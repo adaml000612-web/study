@@ -1,0 +1,34 @@
+menu "MQTT Configuration"
+
+    config DHT11_GPIO
+        int "DHT11 GPIO Pin"
+        range 0 48
+        default 4
+        help
+            GPIO pin number for DHT11 sensor data line.
+
+    config ONENET_BROKER_ADDRESS
+        string "OneNet MQTT Broker Address"
+        default "studio-mqtt.heclouds.com:1883"
+        help
+            OneNet MQTT broker address with port.
+
+    config ONENET_PRODUCT_ID
+        string "OneNet Product ID"
+        default "your_product_id"
+        help
+            Product ID from OneNet IoT platform console.
+
+    config ONENET_DEVICE_NAME
+        string "OneNet Device Name"
+        default "ESP32_Sensor"
+        help
+            Device name from OneNet IoT platform console.
+
+    config ONENET_DEVICE_KEY
+        string "OneNet Device Key"
+        default "your_device_key"
+        help
+            Device authentication key from OneNet console.
+
+endmenu
